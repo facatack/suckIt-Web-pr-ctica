@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contacto-style.css">
+    <title>Contacto SuckIt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <nav>
+                <h1><a href="index.html"><img class="logo" src="/images/cierre de bolsa.png" alt="logo de Suck It Design"></a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <form action="">
+            <label for="apellidoNombre">Nombre y apellido</label>
+            <input class="input-padron" type="text" id="apellidoNombre" required>
+
+            <label for="email">Correo electrónico</label>
+            <input class='input-padron' type="email" id="email" required placeholder="email@dominio.com">
+
+            <label for="tel">Móvil</label>
+            <input class='input-padron' type="tel" id="tel"  placeholder="(xx) xxx xxx">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea class='input-padron' id="mensaje" cols="65" rows="5" required>Escribe tu consulta</textarea>
+
+            <fieldset>
+                <legend class="horario">En qué horario querés recibir tu pedido</legend>
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos</legend>
+                <label for="radio-email"><input type="radio" value="email" name="contacto" id="radio-email">E-mail</label>
+                
+                <label for="radio-telefono"><input type="radio" value="telefono" name="contacto" id="radio-telefono">Teléfono<label>
+    
+                <label for="radio-whatsapp"><input type="radio" value="whatsapp" name="contacto" id="radio-whatsapp" checked>whatsapp<label>
+                
+                <label for=""><input type="checkbox" class="checkbox" checked>¿Le gustaría recibir novedades de Suck it?</label>
+                </fieldset>
+
+            <input type="submit" value="enviar formulario" class="enviar">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>lunes a viernes</td>
+                    <td>09:00hs a 20:00hs</td>
+                </tr>
+
+                <tr>
+                    <td>Fin de semana</td>
+                    <td>10:00hs a 17:00hs</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div class="container-footer_img">
+                <img src="/images/logo con color.png" alt="Logo de Suck It Design">
+            </div>
+            <p>&copy; copyright Suck It Design - 2023</p>
+        </div>
+    </footer>
+        
+</body>
+</html>

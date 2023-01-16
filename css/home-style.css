@@ -1,0 +1,226 @@
+body{
+    background:linear-gradient( #fff444 50%, #22aa77);
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    box-shadow: inset 0 0 500px 2px #11f367;
+}
+
+    header{
+        height: 30vh;
+        background-color: #123;
+        margin: 0px;
+        padding: 0px 0px;
+    }
+    
+    .header_container{
+        width: 70%;
+        position: relative;
+        top: 20px;
+        margin: 0 auto;
+    }
+    
+    .logo{
+        width: 140px;
+        display: inline;
+        padding: 0px 0px  0px 10px;
+        opacity: 0.8;
+        transition: 0.8;
+    }
+
+    .logo:hover{
+        opacity: 1;
+    }
+    
+    
+    nav { 
+        margin: 0 auto;
+        display: inline;
+        width:100%;
+        height: 100%;
+    }
+    
+    h1{
+        display: inline;
+    
+    }
+    
+    nav li{
+        list-style: none;
+        display: inline;
+        margin-left: 20px;
+    }
+    
+    ul{
+        display: inline;
+        margin-left: 50px;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    
+    a:hover{
+        text-decoration: dashed;
+        color: #3344ff;
+    }
+
+
+.principal{
+    width: 920px;
+    margin: 40px auto;
+}
+
+.titulo-principal{
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 5px 10px #123;
+}
+
+.principal p{
+    font-size: 1.3em;
+}
+
+.banner{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto{
+    width: 140px;
+    float: left;
+    margin: 10px 10px 0 0;
+    border-radius: 10px;
+}
+
+
+.diferenciales{
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+}
+
+.lista{
+    display: inline-block;
+    width:40%;
+    margin: 0;
+    padding: 0;
+    vertical-align:top;
+    list-style: none;
+}
+
+.item{
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+.item:nth-child(3n){
+    font-weight: bold;
+}
+
+.item:before{
+    content: "👾";
+}
+
+.diferenciales img{
+    width: 50%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.instagram{
+    width: 450px;
+    height: 500px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.instagram-media{
+    width:100%;
+    height: 400px;
+    margin: 0;
+
+}
+
+.ubicacion{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.ubicacion p {
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+}
+
+.mapa{
+    padding: 1.2em;
+}
+
+footer{
+    height: 21vh;
+    background-color: linear-gradient(#22aa77, #123) ;
+    width: 100%;
+}
+
+footer img {
+    width: 70px;
+    padding-top: 15px;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.container-footer{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container-footer_img{
+    margin: 0 auto;
+    width: 70px;
+}
+
+@media screen and (max-width:480px) {
+.header, .main, .principal, .diferenciales, .instagram, .ubicacion, .footer, .container-footer{
+    width:auto;
+}
+
+.logo{
+    width: 100px;
+}
+
+ul{
+    margin-left: 10px;
+    
+}
+
+.banner{
+width: 90%;
+padding: 5%  5%;
+border-radius: 30px;
+
+}
+
+
+.instagram{
+    display: block;
+}
+
+.mapa{
+    padding: 0;
+}
+
+}

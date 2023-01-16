@@ -1,0 +1,164 @@
+body{
+    background-color: #ff0;
+    margin: 0px;
+    font-family: monospace;
+    box-sizing: border-box;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+header{
+    height: 30vh;
+    background-color: #123;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+.header_container{
+    width: 70%;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 140px;
+    display: inline;
+    padding: 0px 0px  0px 10px;
+}
+
+
+nav { 
+    margin: 0 auto;
+    display: inline;
+    width:100%;
+    height: 100%;
+}
+
+h1{
+    display: inline;
+
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+ul{
+    display: inline;
+    margin-left: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    text-decoration: dashed;
+    color: #3344ff;
+}
+
+main{
+    width:940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0px;
+}
+
+form label, form legend{
+    display: block;
+    margin: 0 0 5px;
+    font-size: 15px;
+}
+
+fieldset{
+    border: none;
+}
+
+.input-padron{
+    display:block;
+    margin: 5px 0px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.horario{
+    margin: 15px 0;
+}
+
+select{
+    margin: 0 0 15px;
+}
+
+.enviar{
+    padding: 20px;
+    background:#ffffff;
+    color: #22aa77;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    transition: 1.5s;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.enviar:hover{
+    background-color: #22aa77;
+    color:#ffffff;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+table{
+    margin: 15px 0px;
+}
+
+thead{
+    background-color: #3344ff;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+tr,td{
+    border: solid 1px #123;
+    padding: 5px 10px;
+}
+footer{
+    height: 20vh;
+    background-color: #22aa77;
+    width: 100%;
+}
+
+footer img {
+    width: 70px;
+    padding-top: 15px;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.container-footer{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container-footer_img{
+    margin: 0 auto;
+    width: 70px;
+}
+
+
